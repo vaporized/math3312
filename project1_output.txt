@@ -1,0 +1,25 @@
+                  GP/PARI CALCULATOR Version 2.9.3 (released)
+          i386 running darwin (x86-64/GMP-6.0.0 kernel) 64-bit version
+compiled: Jul  5 2017, Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)
+                            threading engine: single
+                 (readline v6.3 enabled, extended help enabled)
+
+                     Copyright (C) 2000-2017 The PARI Group
+
+PARI/GP is free software, covered by the GNU General Public License, and comes 
+WITHOUT ANY WARRANTY WHATSOEVER.
+
+Type ? for help, \q to quit.
+Type ?15 for how to get moral (and possibly technical) support.
+
+parisize = 8000000, primelimit = 500000
+task1(iterative): -0.86547403316944837570190429687500000000, 32 iterations.
+task1(recursive): -0.86547403316944837570190429687500000000, 32 iterations.
+Failed to converge within 4 iterations
+Failed to converge within 4 iterations
+task2-part1(iterative): -0.75000000000000000000000000000000000000, 4 iterations.
+task2-part1(recursive): -0.75000000000000000000000000000000000000, 4 iterations.
+value: -0.75000000000000000000000000000000000000 is used for the initial guess
+task2-part2(iterative): -0.86547403310161444662068590119111437438, 5 iterations.
+task2-part2(recursive): -0.86547403310161444662068590119111437438, 5 iterations.
+Goodbye!

@@ -71,14 +71,14 @@ f(x)=-x^3-cos(x);
 task1_i=bisection_iterative(f,-2,2);
 task1_r=bisection_recursive(f,-2,2);
 
-print("task1(iterative): ",n(task1_i[1]),", ",task1_i[2],"iterations.");
-print("task1(recursive): ",n(task1_r[1]),", ",task1_r[2],"iterations.");
+print("task1(iterative): ",n(task1_i[1]),", ",task1_i[2]," iterations.");
+print("task1(recursive): ",n(task1_r[1]),", ",task1_r[2]," iterations.");
 
 task21_i=bisection_iterative(f,-2,2,10E-10,4);
 task21_r=bisection_recursive(f,-2,2,10E-10,4,1);
 
-print("task2-part1(iterative): ",n(task21_i[1]),", ",task21_i[2],"iterations.");
-print("task2-part1(recursive): ",n(task21_r[1]),", ",task21_r[2],"iterations.");
+print("task2-part1(iterative): ",n(task21_i[1]),", ",task21_i[2]," iterations.");
+print("task2-part1(recursive): ",n(task21_r[1]),", ",task21_r[2]," iterations.");
 
 newton_init=task21_i[1];
 print("value: ",n(newton_init)," is used for the initial guess");
@@ -86,11 +86,13 @@ print("value: ",n(newton_init)," is used for the initial guess");
 task22_i=newton_iterative(f,newton_init);
 task22_r=newton_recursive(f,newton_init);
 
-print("task2-part2(iterative): ",n(task22_i[1]),", ",task22_i[2],"iterations.");
-print("task2-part2(recursive): ",n(task22_r[1]),", ",task22_r[2],"iterations.");
+print("task2-part2(iterative): ",n(task22_i[1]),", ",task22_i[2]," iterations.");
+print("task2-part2(recursive): ",n(task22_r[1]),", ",task22_r[2]," iterations.");
 
 \\task3_i=newton_iterative(f,newton_init,10E-10,4);
 \\task3_r=newton_recursive(f,newton_init,10E-10,4,0);
 
-\\print("task3(iterative): ",n(task3_i[1]),", ",task3_i[2],"iterations.");
-\\print("task3(recursive): ",n(task3_r[1]),", ",task3_r[2],"iterations.");
+\\print("task3(iterative): ",n(task3_i[1]),", ",task3_i[2]," iterations.");
+\\print("task3(recursive): ",n(task3_r[1]),", ",task3_r[2]," iterations.");
+
+quit;
