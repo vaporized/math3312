@@ -1,0 +1,19 @@
+                                                         GP/PARI CALCULATOR Version 2.9.3 (released)
+                                                 i386 running darwin (x86-64/GMP-6.0.0 kernel) 64-bit version
+                                    compiled: Jul  5 2017, Apple LLVM version 6.0 (clang-600.0.57) (based on LLVM 3.5svn)
+                                                                   threading engine: single
+                                                        (readline v6.3 enabled, extended help enabled)
+
+                                                            Copyright (C) 2000-2017 The PARI Group
+
+PARI/GP is free software, covered by the GNU General Public License, and comes WITHOUT ANY WARRANTY WHATSOEVER.
+
+Type ? for help, \q to quit.
+Type ?15 for how to get moral (and possibly technical) support.
+
+parisize = 8000000, primelimit = 500000
+The population in the year 1930 is: 169649.000000
+The population in the year 1965 is: 191767.359375
+The population in the year 2000 is: 251654.000000
+The fitted polynomial is: -0.00156850000000*x^5 + 15.4385208333*x^4 - 60782.5210000*x^3 + 119650239.028*x^2 - 1.17763373241 E11*x + 4.63616252893 E13
+Goodbye!
